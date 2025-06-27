@@ -76,7 +76,7 @@ async function getRunner(
       const baseConf = TauriConfig.fromBaseConfig(tauriDir);
 
       if (baseConf && baseConf.isV2()) {
-        tag = 'v2';
+        tag = 'v2.5.0';
       }
     }
   } catch {
